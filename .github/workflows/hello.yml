@@ -7,8 +7,10 @@ on:
 
 jobs:
   Hello_world_job:
-    runs-on: ubuntu 20.04
+    runs-on: ubuntu-20.04
     steps:
       - name: say hello
         run: |
           echo "Hello World!"
+          date
+          ls -l
