@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     "jest/globals": true,
+    node: true,
   },
   extends: ["eslint:recommended", "plugin:react/recommended"],
   parserOptions: {
@@ -16,8 +17,8 @@ module.exports = {
   rules: {
     indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
-    quotes: ["error", "double", "single"],
-    semi: ["error", "never"],
+    quotes: ["error", "double"],
+    semi: ["error", "always"],
     eqeqeq: "error",
     "no-trailing-spaces": "error",
     "object-curly-spacing": ["error", "always"],
